@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>My first PHP Array</h1>
+        <?php
+        $cars = array("Volvo", "BMW", "Toyota");
+        //$length = count($cars);
+            $length = sizeof($cars);
+            for($i=$length-1;$i>=0;$i--) {
+                echo "$cars[$i] ";
+            }
+        ?>
+    </body>
+</html>
